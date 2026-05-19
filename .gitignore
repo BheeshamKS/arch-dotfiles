@@ -1,0 +1,20 @@
+# Ignore everything in the home folder
+/*
+!.config/
+
+# --- CRITICAL: Ignore VS Code Junk ---
+.config/Code/User/workspaceStorage/**
+.config/Code/User/globalStorage/**
+.config/Code/logs/**
+.config/Code/WebStorage/**
+
+# --- Ignore other app caches ---
+.config/blender/**/extensions/**
+.config/obsidian/**/Cache
+.config/Typora/**
+.config/omarchy/themes/**
+.config/omarchy/current/**
+
+# --- Ignore all nested git/git history ---
+**/.git/
+**/.gitmodules
